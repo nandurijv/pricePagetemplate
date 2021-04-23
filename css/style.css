@@ -1,0 +1,117 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background-color:rgb(49, 46, 43);
+}
+.header{
+    height:5vh;
+}
+.container{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: rgb(49, 46, 43);
+    margin:5vw 5vw 0 5vw;
+    height:100%;
+    border-radius: 10px 50px;
+    justify-content: space-between;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 1rem;
+}
+.h1{
+    display:flex;
+    color:rgb(49, 46, 43);
+    height:15vh;
+    background-color:#dad7d5;
+    border-radius:1.5rem 1.5rem 0 0;
+    justify-content: center;
+    align-items: center;
+}
+.d1{
+    padding:5%;
+}
+.classic{
+    box-sizing: border-box;
+    background-color: white;
+    width:33%;
+    box-sizing: border-box;
+    border-radius:1.5vw;
+    box-shadow:0 5px grey;
+}
+.gold{
+    box-sizing: border-box;
+    background-color: white;
+    width:33%;
+    box-sizing: border-box;
+    border-radius: 2rem;
+    box-shadow:0 5px grey;
+}
+.platinum{
+    box-sizing: border-box;
+    background-color:turquoise;
+    width:33%;
+    box-sizing: border-box;
+    border-radius: 2rem;
+    box-shadow:0 5px grey;
+    color:white;
+    line-height: 2rem;
+}
+.platinum .h1{
+    background-color:darkturquoise;
+    color:white;
+}
+.platinum .buttn a{
+    box-shadow:0.5rem 0.5rem orangered;
+    background-color: darkorange;
+    color:white;
+    height:7vh;
+    
+}
+.platinum .buttn a:hover{
+    background-color:orange;
+}
+ul{
+    list-style-type:square;
+    list-style-position: inside;
+}
+.buttn{
+    display:flex;
+    font-size: 2rem;
+    text-align:center;
+    margin:2rem 5rem 2rem 5rem;
+    box-sizing:border-box;
+    width:fit-content;
+    justify-content: center;
+    align-items: center;
+}
+.buttn a{
+    text-decoration: none;
+    padding:0 2rem 0 2rem;
+    border-radius:3rem;
+    color:darkslategray;
+    box-shadow: 0.5rem 0.5rem 0.2rem grey;
+}
+.buttn a:hover{
+    background-color:#d1d1d1;
+}
+
+@media screen and (max-width: 900px) {
+    .container{
+        flex-direction: column;
+        font-size:2rem;
+    }
+    .classic{
+        width:100%;
+        margin-bottom:3rem;
+    }
+    .gold{
+        width:100%;
+        margin-bottom:3rem;
+    }
+    .platinum{
+        width:100%;
+    }
+}
