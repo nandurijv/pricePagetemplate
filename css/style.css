@@ -50,6 +50,7 @@ body{
     border-radius:2rem;
     box-shadow:0 5px grey;
     height:80vh;
+    line-height:5vh;
 }
 .gold{
     box-sizing: border-box;
@@ -59,6 +60,7 @@ body{
     border-radius: 2rem;
     box-shadow:0 5px grey;
     height:80vh;
+    line-height:5vh;
 }
 .platinum{
     box-sizing: border-box;
@@ -69,6 +71,7 @@ body{
     box-shadow:0 5px lightseagreen;
     color:white;
     height:80vh;
+    line-height:5vh;
 }
 .platinum .h1{
     background-color:#007ba2;
